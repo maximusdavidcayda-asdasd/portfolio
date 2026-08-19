@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">MDC</a>
+        </div>
+
+        <div class="right">
+            <a href="http://gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Gmail</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-facebook"></i>
+                <span>Facebook</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+        <div class="text">
+            <p>Aspiring Technical Project Manager</p>
+            <h2>Hello, I'm Maxi!</h2>
+            <p>Welcome to my portfolio! I’m an IT student based in Angeles City who loves taking complex ideas and turning them into well-structured, functional systems. With a strong foundation in database engineering and a passion for leading technical projects, I strive to build clean applications and keep development teams aligned. Check out my skills and projects below—I'm always open to new opportunities and collaborations!</p>
+
+            <div class="links">
+                <a href="#aboutme">
+                <i class="fa-solid fa-user"></i>
+                <span>About</span>
+                </a>
+
+                <a href="#skills">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Skills</span>
+                </a> 
+
+                <a href="#contactme">
+                <i class="fa-solid fa-phone"></i>
+                <span>Contact Me</span>
+                </a>
+
+                <a href="#projects">
+                <i class="fa-solid fa-diagram-project"></i>
+                <span>Projects</span>
+                </a>
+            </div>
+
+        </div>
+            <div class="head">
+                <img src="gradpic.jfif" alt="Me">
+            </div>
+
+        </section>
+
+        <section id="aboutme" class="about">
+                <h2>About</h2>
+            <div class="text">
+                <p>Currently pursuing my IT degree at Angeles University Foundation, I am working toward a career as a Technical Project Manager. My technical background in database systems and web development gives me a strong understanding of how software gets built, while my project management skills ensure projects stay structured, documented, and delivered on time.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+
+            <div class="text">
+                <p>While I work across the full stack, my strongest technical expertise lies in designing structured relational databases and managing projects efficiently from initial system planning through to execution. I enjoy solving complex logic problems on the backend, organizing clean database schemas, and keeping workflows structured. Above all, I am highly flexible, quick to adapt to new team dynamics, and always eager to learn fresh technologies and frameworks whenever a project demands it.</p>
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="DATABASE.png" alt="database icon">
+                    <span>DATABASE</span>
+                </div>
+
+                <div class="cell">
+                    <img src="projmanagement.png" alt="project management icon">
+                    <span>PROJECT MANAGEMENT</span>
+                </div>
+
+                <div class="cell">
+                    <img src="HTML.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="CSS.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="php.png" alt="php logo">
+                    <span>PHP</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Past Projects & Highlights</h2>
+
+            <div class="container">
+                <div class="item">
+                    <img src="figma.jfif" alt="FIGMA">
+                    <span>Figma</span>
+                </div>
+
+                <div class="item">
+                <img src="ERD.jfif" alt="ERD">
+                <span>Entity-Relationship Diagram</span>
+                </div>
+
+                <div class="item">
+                    <img src="JIRA.jfif" alt="jira">
+                    <span>Jira</span>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section id="contactme" class="contact">
+            <h2>Contact Me</h2>
+            
+            <div class="group">
+                <div class="text">My inbox is always open! Whether you're looking to build a project, collaborate on web and database development, or just want to connect and say hello, I'd love to hear from you. Fill out the form, and I'll get back to you as soon as I can!</div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="name">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="company">Company</label>
+                    <input type="text" id="company">
+
+                    <label for="message">Message</label>
+                    <Textarea id="message" cols="30" rows="10"></Textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
