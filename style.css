@@ -223,6 +223,9 @@ nav .right a {
     color: #333333;
 }
 
+.projects .container .item p{
+    margin-top: 10px;
+}
 
 .contact{
     padding: 0 50px;
